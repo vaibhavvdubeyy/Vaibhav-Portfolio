@@ -124,8 +124,8 @@ const technologies = [
 
 const experiences = [
 {
-  title: "React.js Developer",
-  company_name: "Starbucks",
+  title: "ML Intern",
+  company_name: "SkyFi Labs",
   icon: starbucks,
   iconBg: "#383E56",
   date: "March 2020 - April 2021",
@@ -137,8 +137,8 @@ const experiences = [
   ],
 },
 {
-  title: "React Native Developer",
-  company_name: "Tesla",
+  title: "SEO Intern",
+  company_name: "TNC Aviation",
   icon: tesla,
   iconBg: "#E6DEDD",
   date: "Jan 2021 - Feb 2022",
@@ -150,8 +150,8 @@ const experiences = [
   ],
 },
 {
-  title: "Web Developer",
-  company_name: "Shopify",
+  title: "J2EE Developer",
+  company_name: "Wipro",
   icon: shopify,
   iconBg: "#383E56",
   date: "Jan 2022 - Jan 2023",
@@ -164,7 +164,7 @@ const experiences = [
 },
 {
   title: "Full stack Developer",
-  company_name: "Meta",
+  company_name: "Larsen & Toubro",
   icon: meta,
   iconBg: "#E6DEDD",
   date: "Jan 2023 - Present",
@@ -180,7 +180,7 @@ const experiences = [
 const testimonials = [
 {
   testimonial:
-    "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    "I thought it was impossible to make a website as beautiful as our product, but Vaibhav proved me wrong.",
   name: "Sara Lee",
   designation: "CFO",
   company: "Acme Co",
@@ -188,7 +188,7 @@ const testimonials = [
 },
 {
   testimonial:
-    "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    "I've never met a web developer who truly cares about their clients' success like Vaibhav does.",
   name: "Chris Brown",
   designation: "COO",
   company: "DEF Corp",
@@ -196,7 +196,7 @@ const testimonials = [
 },
 {
   testimonial:
-    "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    "After Vaibhav optimized our website, our traffic increased by 50%. We can't thank them enough!",
   name: "Lisa Wang",
   designation: "CTO",
   company: "456 Enterprises",
@@ -206,7 +206,7 @@ const testimonials = [
 
 const projects = [
 {
-  name: "Car Rent",
+  name: "E-Commerce Website",
   description:
     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
   tags: [
@@ -224,10 +224,10 @@ const projects = [
     },
   ],
   image: carrent,
-  source_code_link: "https://github.com/",
+  source_code_link: "https://github.com/vaibhavvdubeyy/AmazonClone",
 },
 {
-  name: "Job IT",
+  name: "News Website",
   description:
     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
   tags: [
@@ -245,10 +245,10 @@ const projects = [
     },
   ],
   image: jobit,
-  source_code_link: "https://github.com/",
+  source_code_link: "https://github.com/vaibhavvdubeyy/NewsApp",
 },
 {
-  name: "Trip Guide",
+  name: "Restaurant App",
   description:
     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
   tags: [
