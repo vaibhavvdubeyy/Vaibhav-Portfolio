@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import django from "./tech/django.ico";
+import mysql from "./tech/mysql.ico";
+import python from "./tech/python.png";
+import sass from "./tech/sass.png";
+import azure from "./tech/azure.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,6 +36,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  django, 
+  mysql ,
+  python, 
+  sass, 
+  azure,
   logo,
   backend,
   creator,

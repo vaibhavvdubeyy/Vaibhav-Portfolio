@@ -1,4 +1,9 @@
 import {
+  python,
+  sass,
+  azure,
+  mysql ,
+  django,
   mobile,
   backend,
   creator,
@@ -81,8 +86,8 @@ const technologies = [
   icon: javascript,
 },
 {
-  name: "TypeScript",
-  icon: typescript,
+  name: "Django",
+  icon: django,
 },
 {
   name: "React JS",
@@ -109,17 +114,18 @@ const technologies = [
   icon: threejs,
 },
 {
-  name: "git",
-  icon: git,
+  name: "azure",
+  icon: azure,
 },
 {
-  name: "figma",
-  icon: figma,
+  name: "mysql",
+  icon: mysql,
 },
 {
-  name: "docker",
-  icon: docker,
+  name: "python",
+  icon: python,
 },
+
 ];
 
 const experiences = [
@@ -128,7 +134,7 @@ const experiences = [
   company_name: "SkyFi Labs",
   icon: starbucks,
   iconBg: "#383E56",
-  date: "March 2020 - April 2021",
+  date: "Jan 2020 - May 2020",
   points: [
     "Developing and maintaining web applications using React.js and other related technologies.",
     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,7 +147,7 @@ const experiences = [
   company_name: "TNC Aviation",
   icon: tesla,
   iconBg: "#E6DEDD",
-  date: "Jan 2021 - Feb 2022",
+  date: "Aug 2020 - Oct 2020",
   points: [
     "Developing and maintaining web applications using React.js and other related technologies.",
     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,7 +160,7 @@ const experiences = [
   company_name: "Wipro",
   icon: shopify,
   iconBg: "#383E56",
-  date: "Jan 2022 - Jan 2023",
+  date: "Feb 2022 - May 2022",
   points: [
     "Developing and maintaining web applications using React.js and other related technologies.",
     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,7 +173,7 @@ const experiences = [
   company_name: "Larsen & Toubro",
   icon: meta,
   iconBg: "#E6DEDD",
-  date: "Jan 2023 - Present",
+  date: "Nov 2022 - Present",
   points: [
     "Developing and maintaining web applications using React.js and other related technologies.",
     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -181,25 +187,25 @@ const testimonials = [
 {
   testimonial:
     "I thought it was impossible to make a website as beautiful as our product, but Vaibhav proved me wrong.",
-  name: "Sara Lee",
-  designation: "CFO",
-  company: "Acme Co",
+  name: "Shashank Raghuvanshi",
+  designation: "MBBS",
+  company: "SR Hospital",
   image: "https://randomuser.me/api/portraits/women/4.jpg",
 },
 {
   testimonial:
     "I've never met a web developer who truly cares about their clients' success like Vaibhav does.",
-  name: "Chris Brown",
-  designation: "COO",
-  company: "DEF Corp",
+  name: "Shashank Shukla",
+  designation: "CMO",
+  company: "Wipro",
   image: "https://randomuser.me/api/portraits/men/5.jpg",
 },
 {
   testimonial:
     "After Vaibhav optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  name: "Lisa Wang",
-  designation: "CTO",
-  company: "456 Enterprises",
+  name: "Shubhankar Rao",
+  designation: "Founder",
+  company: "HashTag Momos",
   image: "https://randomuser.me/api/portraits/women/6.jpg",
 },
 ];
@@ -208,14 +214,14 @@ const projects = [
 {
   name: "E-Commerce Website",
   description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  tags: [
+    "Web-based platform like Amazon that allows users to search, buy, and sell products from website.",
+    tags: [
     {
       name: "react",
       color: "blue-text-gradient",
     },
     {
-      name: "mongodb",
+      name: "sqllite",
       color: "green-text-gradient",
     },
     {
@@ -229,7 +235,7 @@ const projects = [
 {
   name: "News Website",
   description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Web application that enables users to go through latest News around the world.",
   tags: [
     {
       name: "react",
@@ -243,6 +249,10 @@ const projects = [
       name: "scss",
       color: "pink-text-gradient",
     },
+    {
+      name: "newsapi",
+      color: "green-text-gradient",
+    },
   ],
   image: jobit,
   source_code_link: "https://github.com/vaibhavvdubeyy/NewsApp",
@@ -250,7 +260,7 @@ const projects = [
 {
   name: "Restaurant App",
   description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "A restaurant specific app similar to Burger King that allows users to buy from the cusines and seels to sell their food.",
   tags: [
     {
       name: "nextjs",
