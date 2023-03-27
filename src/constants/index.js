@@ -1,6 +1,10 @@
 import {
+  wipro,
+  sl,
+  TNC,
+  lnt,
   python,
-  sass,
+ 
   azure,
   mysql ,
   django,
@@ -9,7 +13,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+ 
   html,
   css,
   reactjs,
@@ -17,9 +21,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
+ 
   meta,
   starbucks,
 tesla,
@@ -132,7 +134,7 @@ const experiences = [
 {
   title: "ML Intern",
   company_name: "SkyFi Labs",
-  icon: starbucks,
+  icon: sl,
   iconBg: "#383E56",
   date: "Jan 2020 - May 2020",
   points: [
@@ -145,7 +147,7 @@ const experiences = [
 {
   title: "SEO Intern",
   company_name: "TNC Aviation",
-  icon: tesla,
+  icon: TNC,
   iconBg: "#E6DEDD",
   date: "Aug 2020 - Oct 2020",
   points: [
@@ -158,7 +160,7 @@ const experiences = [
 {
   title: "J2EE Developer",
   company_name: "Wipro",
-  icon: shopify,
+  icon: wipro,
   iconBg: "#383E56",
   date: "Feb 2022 - May 2022",
   points: [
@@ -171,7 +173,7 @@ const experiences = [
 {
   title: "Full stack Developer",
   company_name: "Larsen & Toubro",
-  icon: meta,
+  icon: lnt,
   iconBg: "#E6DEDD",
   date: "Nov 2022 - Present",
   points: [

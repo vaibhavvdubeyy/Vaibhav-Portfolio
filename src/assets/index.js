@@ -30,12 +30,20 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wipro from "./company/wipro.png";
+import sl from "./company/sl.jpg";
+import TNC from "./company/TNC.png";
+import lnt from "./company/lnt.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  wipro,
+  sl,
+  TNC,
+  lnt,
   django, 
   mysql ,
   python, 
